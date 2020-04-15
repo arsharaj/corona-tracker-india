@@ -34,7 +34,7 @@ my_packages = [
 # calling the setup function 
 setuptools.setup(
     name='corona-tracker-india', 
-	version='0.1.0', 
+	version='0.1.3', 
 	description='Corona disease tracker for India', 
 	long_description=long_description, 
 	long_description_content_type="text/markdown",

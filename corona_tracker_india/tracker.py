@@ -77,10 +77,11 @@ def track_corona_india():
         datafile.write("Total number of confirmed cases : " + table_body[-2].find_all('td')[1].get_text().strip())
         datafile.close()
         print("All the data is fetched into the corona-data folder ..")
+    except ConnectionError:
+        print("Network Problem..")
+        print("Try to checkout your internet connection")
     except:
-        print("An error occured !!")
-        print("Some of the troubleshooting tips are : ")
-        print("1. Check your internet connection")
-        print("2. Check that weather you have a directory named exactly corona-data inside the folder where this file is located")
-        print("3. You can contact me on social media for any other query.")
+        pass
     return
+
+track_corona_india()
