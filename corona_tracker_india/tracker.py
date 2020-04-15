@@ -81,7 +81,5 @@ def track_corona_india():
         print("Network Problem..")
         print("Try to checkout your internet connection")
     except:
-        pass
+        print("\n")
     return
-
-track_corona_india()
