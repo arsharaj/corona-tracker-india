@@ -60,5 +60,3 @@ or
 [Github](https://github.com/arsharaj)
 
 [Twitter](https://twitter.com/arsharajchauhan)
-
-[Wordpress](https://technoverser.wordpress.com)
